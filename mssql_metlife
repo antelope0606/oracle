@@ -1,0 +1,11 @@
+--string to datetime
+SELECT CONVERT(DATATIME, '2021-01-01 12:30:00');
+
+--datatime to string
+SELECT CONVERT(varchar, CONVERT(DATATIME, '2020/12/12'), 111)
+SELECT CONVERT(varchar, CONVERT(DATATIME, '20201212'), 112)
+SELECT CONVERT(varchar, CONVERT(DATATIME, '2020-12-12 12:30:30'), 120)
+SELECT CONVERT(varchar, CONVERT(DATATIME, '2020-12-12 12:30:30.000'), 121)
+
+--concat string
+SELECT concat('a', 'b', 'c', 'd', 'e')

@@ -1,0 +1,8 @@
+--convert string to datetime
+from_timestamp('9999-01-01 00:00:00', 'UTC')
+
+--convert datetime to string
+from_timestamp(col_datetime, 'yyyy-mm-dd')
+
+--concat string
+CONCAT(str1, str2, str3)
